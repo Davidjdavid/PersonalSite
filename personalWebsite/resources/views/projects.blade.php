@@ -1,19 +1,9 @@
-<!DOCTYPE html>
-<html>
-<head>
-    @include('header')
-    <h1>
-        Hello
-    </h1>
-</head>
+@extends('layout')
 
+@section('title', 'Projects')
+
+@section('content')
     <body>
-        <h2>
-            This is the projects page!
-        </h2>
+        <p>This is the projects section</p>
     </body>
-</html>
-
-<?php
-
-?>
+@endsection
